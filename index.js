@@ -67,10 +67,65 @@
 // var num = 35.36 ;
 // document.write(`Number: ${num} <br/> Result: ${num.toString().replace(".", "")}`)
 
-// QUESTION 13)
+// QUESTION 13)Write a program to take user input and store username in a variable. If the username contains any special symbolamong [@ . , !], prompt the user to enter a valid username.For character codes of [@ .
+
+// Note:
+// ASCII code of ! is 33
+// ASCII code of , is 44
+// ASCII code of . is 46
+// ASCII code of @ is 64
+
+// let userName = prompt("enter your name: ");
+
+// for(let i=0; i<userName.length; i++){
+//     let charCode = userName.charCodeAt(i);
+//     if(charCode == 33 || charCode == 44 || charCode == 46 || charCode == 64 ){
+//         console.log("enter a valid variable");
+//         break;
+//     }
+// }
+
+// QUESTION 14)You have an array A = [cake”, “apple pie”, “cookie”, “chips”, “patties”] Write a program to enable “search by user input” in an array. After searching, prompt the user whether the given item is found in the list or not. Note: Perform case insensitive search. Whether the user enters cookie, Cookie, COOKIE or coOkIE, program should inform about its availability. Example:
+
+// let bakkeryItems = ["cake", "apple pie", "cookie", "chips", "patties"]
+// let userAsk = prompt("welcome to abc bakkery. what do you want to order sir/ma'am?").toLowerCase()
+
+// if(bakkeryItems.includes(userAsk)){
+//     alert(`${userAsk} is available at index ${bakkeryItems.indexOf(userAsk)} in our bakkery`)
+// }
+// else{
+//     alert(`We are sorry.${userAsk} is not available in our bakkery`)
+// }
+
+// QUESTION 15) Write a program to take password as an input from user. The password must qualify these requirements:
+// a. It should contain alphabets and numbers
+// b. It should not start with a number
+// c. It must at least 6 characters long
+// If the password does not meet above requirements,
+// prompt the user to enter a valid password.
+// For character codes of a-z, A-Z & 0-9, refer to ASCII
+// table at the end of this document.
 
 
 
+// QUESTION 16)Write a program to convert the following string to an array using string split method.
+// var university = “University of Karachi”;
+// Display the elements of array in your browser.
+
+// let university = "University of Karachi";
+// let splitted = university.split('')
+// for(let i of splitted){
+//     console.log(`${i}`)
+// }
+
+// QUESTION 17)Write a program to display the last character of a user nput.
+
+// let userinput = prompt("write any word to find last character of word")
+// document.write(`User input: ${userinput} <br/> Last character of input ${userinput.charAt(userinput.length-1)}`)
+
+// QUESTION 18) You have a string “The quick brown fox jumps over the lazy dog”. Write a program to count number of occurrences of word “the” in given string.
+
+let givenString = "The quick brown fox jumps over the lazy dog";
 
 
 
